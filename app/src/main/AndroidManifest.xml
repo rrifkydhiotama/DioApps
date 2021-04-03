@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dioapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DioApps">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RS"/>
+        <activity android:name=".RSAwalBros"/>
+        <activity android:name=".RSEkaHospital"/>
+        <activity android:name=".RSSyafira"/>
+        <activity android:name=".RSIbnuSina"/>
+        <activity android:name=".RSEriaBunda"/>
+        <activity android:name=".PLSI"/>
+        <activity android:name=".Sukajadi"/>
+        <activity android:name=".TenayanRaya"/>
+        <activity android:name=".Tampan"/>
+        <activity android:name=".LimaPuluh"/>
+        <activity android:name=".BukitRaya"/>
+        <activity android:name=".SM"/>
+        <activity android:name=".SMGarudaSaki"/>
+        <activity android:name=".SMGiantExTuankuTambusai"/>
+        <activity android:name=".SMHyperMalSKA"/>
+        <activity android:name=".SMPesonaS"/>
+        <activity android:name=".SMPlanetMarpoyan"/>
+        <activity android:name=".SKLH"/>
+        <activity android:name=".SKLHSantaMaria"/>
+        <activity android:name=".SKLHSDN5"/>
+        <activity android:name=".SKLHSMAIslamAnNaas"/>
+        <activity android:name=".SKLHSMAN1"/>
+        <activity android:name=".SKLHSMAN4"/>
+    </application>
+</manifest>
